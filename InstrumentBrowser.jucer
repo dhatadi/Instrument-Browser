@@ -91,10 +91,10 @@
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="Instrument Browser"
                        headerPath="../../submodules/ismsnoop/library/include&#10;../../submodules/ismsnoop/submodules/rtw/include"
-                       libraryPath="/usr/X11R6/lib/"/>
+                       libraryPath="/usr/X11R6/lib/" osxSDK="10.9 SDK" osxCompatibility="10.9 SDK"/>
         <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="Instrument Browser"
                        headerPath="../../submodules/ismsnoop/library/include&#10;../../submodules/ismsnoop/submodules/rtw/include"
-                       libraryPath="/usr/X11R6/lib/"/>
+                       libraryPath="/usr/X11R6/lib/" osxSDK="10.9 SDK" osxCompatibility="10.9 SDK"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_video" path="../../juce"/>
