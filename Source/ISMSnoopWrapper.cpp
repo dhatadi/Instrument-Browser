@@ -34,7 +34,11 @@ bool ISMSnoopWrapper::load()
     
 #else
     
+<<<<<<< HEAD
     if (!library_.load(libSearchPaths))
+=======
+    if (!library_.load())
+>>>>>>> Penhorse/master
     {
         return false;
     }
@@ -52,7 +56,11 @@ bool ISMSnoopWrapper::load()
 
 std::string ISMSnoopWrapper::library_filename()
 {
+<<<<<<< HEAD
     std::string libfname = rtw::dylib::get_filename("ismsnoop");
     return libfname;
+=======
+    return rtw::dylib::get_filename("ismsnoop");
+>>>>>>> Penhorse/master
 }
 
